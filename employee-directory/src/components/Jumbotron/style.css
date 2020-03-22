@@ -1,7 +1,8 @@
-nav.navbar.navbar-default {
-  margin-bottom: 0;
+.jumbotron {
+  text-align: center;
 }
 
-.navbar-brand {
-  color: green;
+.display-3 {
+  font-weight: 400;
+  letter-spacing: 1px;
 }
