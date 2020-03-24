@@ -1,3 +1,9 @@
-tbody {
+td {
+    width: 200px;
     text-align: center;
+}
+
+tr {
+   line-height: 50px;
+   font-weight: bold;
 }
