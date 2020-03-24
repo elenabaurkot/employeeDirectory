@@ -4,6 +4,7 @@ import Container from "./Container";
 import SearchForm from "./SearchForm";
 import SearchResults from "./SearchResults";
 import Alert from "./Alert";
+import Table from "./Table";
 
 class Search extends Component {
   state = {
@@ -39,7 +40,6 @@ class Search extends Component {
     return (
       <div>
         <Container style={{ minHeight: "80%" }}>
-          <h1 className="text-center">Search By Breed!</h1>
           <Alert
             type="danger"
             style={{ opacity: this.state.error ? 1 : 0, marginBottom: 10 }}
