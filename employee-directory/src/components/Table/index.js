@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Container from "../Container";
+// import TableFilter from 'react-table-filter';
 import "./style.css";
 
 class Table extends React.Component {
@@ -21,6 +22,7 @@ renderTableData() {
        const { id, name, role, email } = employee //destructuring
        return (
           <tr key={id}>
+             <td>{id}</td>
              <td>{name}</td>
              <td>{role}</td>
              <td>{email}</td>
@@ -29,12 +31,21 @@ renderTableData() {
     })
  }
 
- render() {
+renderTableHeader() {
+    let header = Object.keys(this.state.employees[0])
+    return header.map((key, index) => {
+       return <th key={index}>{key.toUpperCase()}</th>
+    })
+ }
+
+
+render() {
     return (
        <div>
         <Container>
           <table id='employees'>
              <tbody>
+                {this.renderTableHeader()}
                 {this.renderTableData()}
              </tbody>
           </table>
@@ -43,5 +54,6 @@ renderTableData() {
     )
  }
 }
+
 
  export default Table;

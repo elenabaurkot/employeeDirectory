@@ -11,7 +11,6 @@ function SearchForm(props) {
           value={props.search}
           onChange={props.handleInputChange}
           name="breed"
-          list="breeds"
           type="text"
           className="form-control"
           placeholder="Type in the name of the employee you are searching for"
