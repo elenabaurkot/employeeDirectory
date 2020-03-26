@@ -1,5 +1,4 @@
 import React from "react";
-import Search from "./components/Search";
 import Jumbotron from "./components/Jumbotron";
 import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
@@ -10,7 +9,6 @@ function App() {
     <div>
       <Jumbotron />
         <Wrapper>
-          <Search />
           <Table />
         </Wrapper>
       <Footer />
