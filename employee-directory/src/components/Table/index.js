@@ -34,23 +34,24 @@ const DatatablePage = () => {
       { 
          Name: 'Ali Mead', 
          Role: 'Marketer', 
-         Email: 'ali@email.com' 
+         Email: 'Ali@email.com' 
       },
       { 
          Name: 'Saad Patel', 
          Role: 'Secretary', 
-         Email: 'saad@email.com' 
+         Email: 'Saad@email.com' 
       },
       { 
          Name: 'Asad Avidan', 
          Role: 'Accountant', 
-         Email: 'asad@email.com' 
+         Email: 'Asad@email.com' 
       }
     ]
   };
 
   return (
    <Container>
+     <h2>Search for an Employee</h2>
     <MDBDataTable
       striped
       bordered

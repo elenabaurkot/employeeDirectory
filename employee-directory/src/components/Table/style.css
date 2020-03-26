@@ -13,13 +13,19 @@ th {
 
 [data-test="datatable-select"], 
 [data-test="datatable-info"], 
-[data-test="datatable-pagination"]  {
+[data-test="datatable-pagination"],
+[data-test="datatable-entries"] {
     display: none;
 }
 
 
+
 label {
     text-align: left;
-    width: 100%;
+    width: 75%;
     margin-bottom: 8px;
+}
+
+h2 {
+    text-align: center;
 }
