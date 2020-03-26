@@ -9,3 +9,17 @@ th {
 [data-test="table-foot"] {
     display: none;
 }
+
+
+[data-test="datatable-select"], 
+[data-test="datatable-info"], 
+[data-test="datatable-pagination"]  {
+    display: none;
+}
+
+
+label {
+    text-align: left;
+    width: 100%;
+    margin-bottom: 8px;
+}
