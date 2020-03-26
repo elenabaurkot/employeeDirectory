@@ -5,3 +5,7 @@ td {
 th {
     text-align: center;
 }
+
+[data-test="table-foot"] {
+    display: none;
+}
